@@ -1,0 +1,10 @@
+Question 6:
+(A): We have used the age as a protected member so that it can be used by derived class without any getter and setter but are not available in driver without getter setter, 
+but for firstname and lastname we need the getter setter in derived class to use them
+(B): error: 'person::first_name' : cannot access private data members declared in class 'person'
+
+Question 8:
+ The protected will cause the functions and datamembers to be unuseable in the main and the public members of the person class will be protected and private will remain private and protected m,embers will remain protected.
+
+Question 9:
+All the members of the person class will be hidden for derived class and in  the main.
